@@ -1,0 +1,39 @@
+# Weather App Configuration
+
+# API Endpoints
+api:
+  weather:
+    open-meteo: "https://api.open-meteo.com/v1/forecast"
+  geocoding:
+    nominatim: "https://nominatim.openstreetmap.org/search"
+
+# API Parameters
+api-params:
+  weather:
+    current-weather: "current_weather=true"
+    timezone: "timezone=auto"
+  geocoding:
+    format: "format=json"
+    limit: "limit=1"
+
+# HTTP Configuration
+http:
+  timeout-seconds: 10
+  headers:
+    user-agent: "WeatherApp/1.0"
+    accept: "application/json"
+
+# Error Messages
+messages:
+  errors:
+    city-not-found: "Città non trovata: %s"
+    weather-data-unavailable: "Dati meteo non disponibili nella risposta"
+    api-call-error: "Errore nella chiamata API: %d"
+    request-interrupted: "Richiesta interrotta"
+    geocoding-interrupted: "Richiesta geocoding interrotta"
+  defaults:
+    weather-description: "Dati meteo attuali"
+
+# Application Settings
+app:
+  coordinate-precision: 6

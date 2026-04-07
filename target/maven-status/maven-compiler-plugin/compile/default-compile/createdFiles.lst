@@ -1,0 +1,12 @@
+com\weatherapp\service\CacheService.class
+com\weatherapp\model\OpenMeteoResponse$CurrentWeather.class
+com\weatherapp\model\GeocodingResponse.class
+com\weatherapp\model\OpenMeteoResponse.class
+com\weatherapp\controller\WeatherController.class
+com\weatherapp\service\CacheService$CacheEntry.class
+com\weatherapp\config\ApplicationProperties.class
+com\weatherapp\Main.class
+com\weatherapp\model\WeatherData.class
+com\weatherapp\service\ApiCacheExample.class
+com\weatherapp\service\WeatherService.class
+com\weatherapp\model\OpenMeteoResponse$CurrentWeatherUnits.class
